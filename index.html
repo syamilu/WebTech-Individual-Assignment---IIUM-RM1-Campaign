@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Individual Assignment, INFO 2302 Section 3, SEM 1 23/24, Wan Muhammad Syamil bin W Mohd Yusof, 2220561">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet" />
+    <title>RM1 Campaign Website</title>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="up-arrow" title="Go to top">
+        <span class="material-symbols-sharp">
+            arrow_upward
+        </span>
+    </button>
+    <img src="asset/iium scenery 2.png" alt="background" id="background">
+    <div class="container">
+        <div class="navbar">
+            <img src="asset/iium logo.png" alt="logo" class="logo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#participate">Participate</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <sidebar>
+                <a href="#"><span class="material-symbols-sharp">
+                        menu
+                    </span></a>
+            </sidebar>
+        </div>
+        <div class="hero">
+            <div>
+                <h1>RM1 Campaign</h1>
+                <h2 class="typewrite" data-period="3000"
+                    data-type='["Let your contributions be perpetual for the pleasure of Allah swt."]'><span
+                        class="wrap"></span></h2>
+                <div class="verse-hover">
+                    <a title="hover 2s" class="surah">Surah Al-Baqarah, Verse 261</a>
+                </div>
+            </div>
+        </div>
+        <section id="about">
+            <div class="about">
+                <h1>About</h1>
+                <p> A RM1 Campaign is a donation initiative that encourages donors to contribute at least RM1.00 to a
+                    fund. <br>This campaign aims to assist the poor and needy students in the International Islamic
+                    University Malaysia who are academically good but incapable of financing the fees and cost of
+                    living.</p>
+            </div>
+        </section>
+        <section id="participate" class="form-container">
+            <form>
+                <fieldset>
+                    <legend>Participation Form</legend>
+                    <div class="participate">
+                        <div class="participate-item">
+                            <label for="name">Name</label>
+                            <div class="input-group">
+                                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="staffno">Staff No.</label>
+                            <div class="input-group">
+                                <input type="text" name="staffno" id="staffno" placeholder="Enter your staffno"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="unit">K/C/D/I/O</label>
+                            <div class="input-group">
+                                <input type="text" name="unit" id="unit" placeholder="Enter your unit" required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="phone">Phone</label>
+                            <div class="input-group">
+                                <input type="tel" name="phone" id="phone" placeholder="Enter your phone number"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="email">Email</label>
+                            <div class="input-group">
+                                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="amount">Amount to be Deducted</label>
+                            <div class="input-group">
+                                <span class="input-prefix">RM</span>
+                                <input type="number" name="amount" id="amount" placeholder="0.00" required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="start">Start Month and Year</label>
+                            <div class="input-group">
+                                <input type="month" name="start" id="start"
+                                    placeholder="Enter your start month and year" required>
+                            </div>
+                        </div>
+
+                        <div class="participate-item">
+                            <label for="end">End Month and Year</label>
+                            <div class="input-group">
+                                <input type="month" name="end" id="end" placeholder="Enter your end month and year"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit">Submit</button>
+                        </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </div>
+    <section id="contact">
+        <div class="contact-container">
+            <div class="header">
+                <h2>Contact Us</h2>
+                <p>Any questions?</p>
+            </div>
+            <p>Reach out to us at <a href="mailto:ief.iium.edu.my">ief@iium.edu.my</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-media">
+                <a href="https://www.facebook.com/OfficialIIUM"><img src="asset/facebook-circular-logo.png"
+                        alt="facebook" /></a>
+            </div>
+            <h3>IIUM ENDOWMENT FUND</h3>
+            <P>Level 3, Rectory</P>
+            <p>International Islamic University Malaysia</p>
+            <p>P.O. Box 10, 50728 Kuala Lumpur</p>
+            <p>Tel: +603-6196 4268</p>
+        </div>
+        <a class="flaticon" href="https://www.flaticon.com/free-icons/" title="facebook icons">Icons created by Freepik
+            -
+            Flaticon</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
