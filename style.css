@@ -155,7 +155,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: black;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     transform: translate(-50%, -50%);
     font-weight: bold;
     font-size: 80px;
@@ -174,6 +175,8 @@ body {
     padding: 20px;
     box-sizing: border-box;
     transition: 0.5s;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .hero .verse-container:hover .content{
@@ -185,6 +188,7 @@ body {
     padding: 0;
     font-size: larger;
     font-weight: bold;
+    
 }
 
 .hero .content p{
