@@ -91,7 +91,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 7rem 0;
+    padding: 10rem 0;
     margin-bottom: 0;
 }
 
@@ -235,6 +235,9 @@ body {
 /* End of About Section */
 
 /* Start of FORM */
+fieldset{
+}
+
 legend {
     font-size: 1.5em;
     font-weight: bold;
@@ -243,6 +246,7 @@ legend {
     letter-spacing: 3px;
     transition: linear 0.3s;
     opacity: 1;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 legend:hover{
