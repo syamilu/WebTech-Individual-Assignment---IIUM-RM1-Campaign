@@ -57,29 +57,6 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
-// Start of Verse Mouseover
-var element = document.querySelector(".verse-hover");
-originalText = element.innerHTML;
-var text =
-  "<h3 class='popverse'>“The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills. And Allah is all-Encompassing and Knowing.”</h3>";
-
-var hover = false;
-element.addEventListener("mouseover", function () {
-  if (hover) return;
-  setTimeout(() => {
-    this.innerHTML = text;
-    hover = true;
-  }, 1000); // 2000 milliseconds = 2 seconds
-});
-
-element.addEventListener("mouseout", function () {
-  setTimeout(() => {
-    this.innerHTML = originalText;
-    hover = false;
-  }, 3000); // 2000 milliseconds = 2 seconds
-});
-// End of Verse Mouseover
-
 //Start of Up Arrow
 let mybutton = document.getElementById("up-arrow");
 
