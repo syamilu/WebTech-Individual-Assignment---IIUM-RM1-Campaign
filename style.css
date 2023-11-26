@@ -487,3 +487,41 @@ footer .flaticon{
         max-width: 400px;
     }
 }
+
+/* For mobile devices with max width 480px */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 0.875rem; /* Adjust font size */
+    }
+
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+        
+    }
+
+    .navbar li {
+        margin: 5px 10px; /* Adjust margin */
+    }
+
+    .hero {
+        padding: 3rem 0; /* Adjust padding */
+    }
+
+    .hero h1 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .about {
+        padding: 5rem 0; /* Adjust padding */
+    }
+
+    .about h1 {
+        font-size: 2rem; /* Adjust font size */
+    }
+
+    .form-container {
+        margin: 200px auto; /* Adjust margin */
+    }
+
+    /* Adjust other elements as needed */
+}
