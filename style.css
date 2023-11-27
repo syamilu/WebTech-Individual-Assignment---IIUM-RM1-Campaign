@@ -21,6 +21,18 @@ body {
     object-fit: cover;
 }
 
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 6px;
+    margin: 0;
+}
+
 .container {
     margin: 0 auto;
     padding: 20px;
