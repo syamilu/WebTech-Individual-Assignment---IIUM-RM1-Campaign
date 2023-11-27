@@ -1,8 +1,6 @@
 # WebTech-Individual-Assignment---IIUM-RM1-Campaign
 Wan Muhammad Syamil bin W Mohd Yusof
-
 2220561
-
 WebTech Section3 2023/2024
 
 Deployed website : https://web-tech-individual-assignment-iium-rm-1-campaign.vercel.app/
@@ -17,8 +15,11 @@ There are 4 javascript function included in my website
 
 Resources & References :
 Typewriter Function : https://css-tricks.com/snippets/css/typewriter-effect/
+
 CSS : tailwindui.com and tailwindcss.com
+
 Design : https://iiumrc.com/
+
 Html,css,js : w3schools.com
 
 Additional helper : github copilot
