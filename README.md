@@ -1,7 +1,5 @@
 # WebTech-Individual-Assignment---IIUM-RM1-Campaign
-Wan Muhammad Syamil bin W Mohd Yusof
-2220561
-WebTech Section3 2023/2024
+Wan Muhammad Syamil bin W Mohd Yusof, 2220561, WebTech Section3 2023/2024
 
 Deployed website : https://web-tech-individual-assignment-iium-rm-1-campaign.vercel.app/
 
@@ -14,6 +12,7 @@ There are 4 javascript function included in my website
 4) Agreement Radio Interaction : The last js interaction implemented is the user need to fill all the required input before they can check the agreement. If one or more input not filled yet, then the button is unclickable and the  agreement does not appear.
 
 Resources & References :
+
 Typewriter Function : https://css-tricks.com/snippets/css/typewriter-effect/
 
 CSS : tailwindui.com and tailwindcss.com
