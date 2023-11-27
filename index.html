@@ -99,7 +99,9 @@
                         <div class="participate-item">
                             <label for="email">Email</label>
                             <div class="input-group">
-                                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                                <input type="email" name="email" id="email" placeholder="e.g. johndoe@gmail.com"
+                                    pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+                                    required>
                             </div>
                         </div>
 
@@ -124,6 +126,12 @@
                             <div class="input-group">
                                 <input type="month" name="end" id="end" placeholder="Enter your end month and year"
                                     required>
+                            </div>
+                        </div>
+                        <div class="participate-item">
+                            <div class="agree-container">
+                                <input type="checkbox" name="agree" id="agree" required>
+                                <span style="color: red;">*</span><span id="agree-text"></span>
                             </div>
                         </div>
                         <div class="form-button">

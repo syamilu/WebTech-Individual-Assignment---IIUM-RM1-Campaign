@@ -77,3 +77,53 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 //End of Up Arrow
+
+//To change the agree text
+var amountField = document.getElementById("amount");
+var startField = document.getElementById("start");
+var endField = document.getElementById("end");
+
+function updateSentence() {
+  var amount = parseFloat(amountField.value).toFixed(2);
+  var startMonth = startField.value;
+  var endMonth = endField.value;
+  var sentence =
+    "I hereby accept to deduct RM" +
+    amount +
+    " from my account, starting " +
+    startMonth +
+    " until " +
+    endMonth +
+    ".";
+  document.getElementById("agree-text").innerText = sentence;
+}
+
+amountField.addEventListener("input", updateSentence);
+startField.addEventListener("input", updateSentence);
+endField.addEventListener("input", updateSentence);
+
+updateSentence();
+
+//for user can tick the agreement only after the fill all of other details
+var checkbox = document.getElementById("agree");
+var requiredFields = document.querySelectorAll("input[required]");
+
+function checkRequiredFields() {
+  for (var i = 0; i < requiredFields.length; i++) {
+    if (requiredFields[i].value === "") {
+      return false;
+    }
+  }
+  return true;
+}
+function updateCheckbox() {
+  var allFieldsFilled = checkRequiredFields();
+  checkbox.disabled = !allFieldsFilled;
+  document.getElementById("agree-text").style.display = allFieldsFilled
+    ? "block"
+    : "none";
+}
+for (var i = 0; i < requiredFields.length; i++) {
+  requiredFields[i].addEventListener("input", updateCheckbox);
+}
+updateCheckbox();

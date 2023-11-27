@@ -235,9 +235,17 @@ body {
 /* End of About Section */
 
 /* Start of FORM */
-fieldset{
+#agree-text{
+    font-weight: bold;
+    font-size: medium;
+
 }
 
+.agree-container{
+    display: flex;
+    float: left;
+    justify-content: top;
+}
 legend {
     font-size: 1.5em;
     font-weight: bold;
