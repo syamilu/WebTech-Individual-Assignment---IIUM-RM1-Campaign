@@ -1,5 +1,5 @@
 # WebTech-Individual-Assignment---IIUM-RM1-Campaign
-
+Deployed website : https://web-tech-individual-assignment-iium-rm-1-campaign.vercel.app/
 Javascript Interaction :-
 
 There are 4 javascript function included in my website
