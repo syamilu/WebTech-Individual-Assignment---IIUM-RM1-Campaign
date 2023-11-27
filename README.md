@@ -21,6 +21,8 @@ Design : https://iiumrc.com/
 
 Html,css,js : w3schools.com
 
+Content Box : https://youtu.be/IFai8qTKvEM?si=-H1NgU0sVoRJbtvo
+
 Additional helper : github copilot
 
 Disclaimer : I understand everything that i code except typewriter function which some of it i need to research it more.
